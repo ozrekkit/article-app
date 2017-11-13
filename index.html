@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Title</title>
+	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+<nav class="navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<div class="navbar-header">
+			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+					aria-expanded="false" aria-controls="navbar">
+				<span class="sr-only">Toggle navigation</span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+			<a class="navbar-brand" href="#">Project name</a>
+		</div>
+		<div id="navbar" class="navbar-collapse collapse">
+			<ul class="nav navbar-nav">
+				<li class="active"><a href="./index.html">Home</a></li>
+				<li><a href="#about">About</a></li>
+				<li><a href="#contact">Contact</a></li>
+				<li class="dropdown">
+					<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+					   aria-expanded="false">Dropdown <span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#">Action</a></li>
+						<li><a href="#">Another action</a></li>
+						<li><a href="#">Something else here</a></li>
+						<li role="separator" class="divider"></li>
+						<li class="dropdown-header">Nav header</li>
+						<li><a href="#">Separated link</a></li>
+						<li><a href="#">One more separated link</a></li>
+					</ul>
+				</li>
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="./sign-in.html">Sign In</a></li>
+				<li><a href="./sign-up.html">Sign Up</a></li>
+			</ul>
+		</div><!--/.nav-collapse -->
+	</div>
+</nav>
+<div class="jumbotron">
+	<div class="container">
+		<h1>Article</h1>
+		<p>Lorem ipsum dolor sit amet enim. Etiam ullamcorper. Suspendisse<br> a pellentesque dui, non</p>
+		<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#new-article">New Article
+			<span class="glyphicon glyphicon-menu-right"></span>
+		</button>
+	</div>
+	<div class="modal fade" tabindex="1" role="dialog" id="new-article">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<div class="controls pull-right">
+						<span class="glyphicon glyphicon-remove" aria-hidden="true" data-dismiss="modal"></span>
+					</div>
+					<h4 class="modal-title">
+						NEW ARTICLE
+					</h4>
+				</div>
+				<div class="modal-body">
+					<div>
+						<span>Title</span>
+					</div>
+					<div>
+						<input type="text" class="form-control" placeholder="Title">
+					</div>
+					<div>
+						<span>Content</span>
+					</div>
+					<div>
+						<textarea type="text" class="form-control" rows="5" placeholder="Content"></textarea>
+					</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+					<button type="button" class="btn btn-primary">Save</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="container">
+	<div class="row">
+		<div class="col-lg-4">
+			<article class="article">
+				<header>
+					<div class="controls pull-right">
+						<span class="glyphicon glyphicon-pencil" aria-hidden="true"></span>
+						<span class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+					</div>
+					<time>Date: 12-12-2017</time>
+				</header>
+				<main>
+					<h1>Hello Word!</h1>
+					<p>Article content is hereArticle content is here Article content is her</p>
+				</main>
+				<footer class="clearfix">
+					<div class="article-author-container pull-left">
+						<div class="article-author-label">
+							<span class="glyphicon glyphicon-user"></span>
+							<span> Author:</span>
+						</div>
+						<span class="article-author">Alex Popov</span>
+					</div>
+					<button type="button" class="btn btn-default pull-right">View More >></button>
+				</footer>
+			</article>
+		</div>
+	</div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="assets/bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

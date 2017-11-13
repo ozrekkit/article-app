@@ -1,0 +1,52 @@
+body {
+    height: 2000px;
+}
+
+.article {
+    border: 1px solid gainsboro;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.article main  {
+    height: 110px;
+}
+
+.article footer {
+    padding-top: 10px;
+    border-top: 1px solid gainsboro;
+}
+
+.article .article-author-container {
+    font-size: 0;
+}
+
+.article .article-author-label {
+    font-size: 10px;
+}
+
+.article .article-author {
+    font-size: 14px;
+}
+
+.article header .controls {
+    color: gainsboro;
+    cursor: pointer;
+}
+
+.article header .controls span:hover {
+    color: #66a1ff;
+}
+
+.modal-content {
+    padding: 10px;
+}
+
+.modal .controls {
+    color: gainsboro;
+    cursor: pointer;
+}
+
+.modal .controls span:hover {
+    color: #66a1ff ;
+}
